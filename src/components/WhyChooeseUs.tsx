@@ -32,7 +32,7 @@ const musicSchoolVContent = [
 
 export default function WhyChooeseUs() {
   return (
-    <div className="">
+    <div>
       <StickyScroll content={musicSchoolVContent} />
     </div>
   );
