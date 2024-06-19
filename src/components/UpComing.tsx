@@ -26,11 +26,14 @@ export default function UpComing() {
         </div>
 
         <div className="mt-10 text-center">
-          <Link href={"/"}
-          className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
-          >
-            View All webinars
-          </Link>
+        <Link href={"/courses"} className="px-4 py-2 ">
+          <button className="p-[3px] relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
+            <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
+              View All webinars
+            </div>
+          </button>
+        </Link>
         </div>
       </div>
     </div>
